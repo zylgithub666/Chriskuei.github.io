@@ -5,25 +5,25 @@ paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 highlighter: pygments
 markdown: kramdown
-disqus: dbyll
-google_analytics: dbyll
+disqus: 陈大鬼
+google_analytics: Chris
 
 defaults:
   -
     scope:
       path: "" # empty string for all files
     values:
-      title: dbyll
+      title: 而我告别了突然
 
-description: Stylish Jekyll Theme
+description: 被困在帝都当人工吸尘器的捂脸汪
 author:
-  name: dbyll
-  email: dbyll@ismaildemirbilek.com
-  github: dbtek
-  twitter: dbtek
-  pinterest: asd123
-  linkedin: asd123
-  bio: Your stylish, minimalist theme!
+  name: 陈大鬼
+  email: chenjiangui@outlook.com
+  github: chriskuei
+  twitter: chriskuei
+  pinterest: chriskuei
+  linkedin: chriskuei
+  bio: Stay Hungry. Stay Foolish.
   email_md5: 27b73b1ba9a8bbb1422d01b87db3e10f
 
 rss_path: feed.xml
