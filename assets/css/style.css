@@ -193,7 +193,7 @@ ul.dropdown-menu>li>a>i.fa {
     font-size: 18px;
 }
 pre.ch-inject {
- font-family: Monaco, "Ubuntu Mono", "Droid Sans Mono", Consolas, serif;
+ font-family: Arial, Helvetica, sans-serifMonaco, "Ubuntu Mono", "Droid Sans Mono", Consolas, serif;
     font-size: 16px;
     font-size: 1.6rem;
     line-height: 1.6;
@@ -206,7 +206,7 @@ pre.ch-inject {
 }
 
 h2, h3, h4, h5, h6 {
-    font-family: 'Libre Baskerville', serif;
+    font-family: Arial, Helvetica, sans-serif, 'Libre Baskerville', serif;
     font-weight: 800;
     color: RGB(0,119,34);
     font-size: 17px;
