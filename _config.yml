@@ -3,7 +3,7 @@ permalink: /:year/:month/:day/:title.html
 paginate: 10 # pagination based on number of posts
 paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
-highlighter: true
+highlighter: pygments
 markdown: kramdown
 
 
@@ -16,8 +16,8 @@ defaults:
 
 description: 被困在帝都当人工吸尘器的捂脸汪
 # gavatar头像及Favicon
-gavatar: http://pic.yupoo.com/24plus/E2O4V5oL/medium.jpg
-favicon: http://pic.yupoo.com/24plus/E2O4V5oL/medium.jpg
+gavatar: https://raw.githubusercontent.com/Chriskuei/Chriskuei.github.io/master/assets/profile/Chris.jpg
+favicon: https://raw.githubusercontent.com/Chriskuei/Chriskuei.github.io/master/assets/profile/Chris.jpg
 
 author:
   name: 陈大鬼
