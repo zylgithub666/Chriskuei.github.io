@@ -12,21 +12,21 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: 镜中的自我
+      title: 而我告别了突然
 
-description: 生活、文艺与梦想
+description: 被困在帝都当人工吸尘器的捂脸汪
 # gavatar头像及Favicon
 gavatar: http://pic.yupoo.com/24plus/E2O4V5oL/medium.jpg
 favicon: http://pic.yupoo.com/24plus/E2O4V5oL/medium.jpg
 
 author:
-  name: 七弦
-  email: lcm.hust@gmail.com
-  github: joshualeung
-  twitter: szjoshua
-  pinterest: joshualeung
-  linkedin: joshualeung
-  bio: 谁谓河广，一苇杭之
+  name: 陈大鬼
+  email: chenjiangui@outlook.com
+  github: chriskuei
+  twitter: chriskuei
+  pinterest: chriskuei
+  linkedin: chriskuei
+  bio: Stay Hungry. Stay Foolish.
   email_md5: 726351295ec82e145928582f595aa3aa
 
 rss_path: feed.xml
