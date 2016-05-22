@@ -28,7 +28,7 @@ avatar: "/images/chris.png"
 # List of links in the navigation bar
 navbar-links:
   Home: ""
-  Projects: "projects.html"
+  # Projects: "projects.html"
   About Me: "aboutme.html"
 #  Contact: "contact.html"
 
@@ -39,7 +39,7 @@ navbar-links:
 author:
   name: Chriskuei
   email: "chriskuei@outlook.com"
-  twitter: chriskuei   # eg. daattali
+  twitter: Chris_2544   # eg. daattali
   github: chriskuei    # eg. daattali
 #  linkedin: yourlink  # eg. "pub/dean-attali/8/946/143"
 #  facebook: yourname  # eg. daattali
