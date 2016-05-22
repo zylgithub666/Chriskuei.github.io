@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-subtitle: Spare time stuff, research, etc.
+subtitle: Spare time stuff.
 ---
 
 <!--
@@ -10,7 +10,7 @@ subtitle: Spare time stuff, research, etc.
 * [Open source tools for open data](#opentools)
 * [Open knowledge](#openknow)
 * [Research on machine learning and bioinformatics](#research) (past)
---> 
+-->
 <!-- to be added:
 - asuntohinnat (link to blog post)
 - something from Avaus?
@@ -52,7 +52,7 @@ subtitle: Spare time stuff, research, etc.
 
 * [helsinki](https://github.com/ropengov/helsinki) - Helsinki open data R tools
 * [gisfin](https://github.com/ropengov/gisfin) - Finland GIS R tools
-* [sorvi](https://github.com/ropengov/sorvi) - Finnish open government data R tools 
+* [sorvi](https://github.com/ropengov/sorvi) - Finnish open government data R tools
 
 *Check out [R-bloggers] for interesting blogs related to the R language!*
 
@@ -102,7 +102,7 @@ Open knowledges cover a wide set of topics from open data and science to democra
 
 **[My Data]** has emerged as an important topic on the side of open data. The working group recently produced a [My data survey][mydata-survey] that clarifies the related concepts nicely. An English version is coming in the future. I have also developed some [code] for analyzing personal data from various sources.
 
-**[Open science]** - the openness of research publications, data and code - is a really hot topic now. Problems in research reproducibility have raised the need for better and more open ways to conduct science. 
+**[Open science]** - the openness of research publications, data and code - is a really hot topic now. Problems in research reproducibility have raised the need for better and more open ways to conduct science.
 
 [okfi]: http://fi.okfn.org/
 [My Data]: http://fi.okfn.org/wg/my-data/
@@ -113,7 +113,7 @@ Open knowledges cover a wide set of topics from open data and science to democra
 
 ## Research on machine learning and bioinformatics {#research}
 
-I finished my PhD studies in Aalto University in 2014. In my [thesis](#theses) I developed machine learning methods for molecular biology and medicine applications. 
+I finished my PhD studies in Aalto University in 2014. In my [thesis](#theses) I developed machine learning methods for molecular biology and medicine applications.
 
 ### Software
 
@@ -196,4 +196,3 @@ Helsinki University of Technology, Department of Electrical and Communications E
 * [ORCID: 0000-0002-7818-5901](http://orcid.org/0000-0002-7818-5901)
 * [ResearcherID: I-8411-2014](http://www.researcherid.com/rid/I-8411-2014)
 * [CiteULike](http://www.citeulike.org/author/Parkkinen:Juuso)
-
