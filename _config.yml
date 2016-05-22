@@ -41,6 +41,7 @@ author:
   email: "chriskuei@outlook.com"
   twitter: Chris_2544   # eg. daattali
   github: chriskuei    # eg. daattali
+  weibo: chenjiangui
 #  linkedin: yourlink  # eg. "pub/dean-attali/8/946/143"
 #  facebook: yourname  # eg. daattali
 #  stackoverflow: yourlink  # eg. "users/3943160/daattali"
@@ -50,8 +51,9 @@ footer-links-active:
   rss: false
   facebook: true
   email: true
-  twitter: true
+  twitter: false
   github: true
+  weibo: true
   linkedin: false
   stackoverflow: false
 

@@ -33,7 +33,17 @@
             </a>
           </li>
           {% endif %}
-		  {% if site.author.email and site.footer-links-active.email %}
+      {% if site.author.weibo and site.footer-links-active.weibo %}
+          <li>
+            <a href="https://weibo.com/{{ site.author.weibo }}" title="Weibo">
+              <span class="fa fa-weibo">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          {% endif %}
+      {% if site.author.email and site.footer-links-active.email %}
           <li>
             <a href="mailto:{{ site.author.email }}" title="Email me">
               <span class="fa-stack fa-lg">
@@ -71,14 +81,14 @@
 				<i class="fa fa-rss fa-stack-1x fa-inverse"></i>
 			  </span>
 			</a>
-		  </li>		
-          {% endif %}		  
+		  </li>
+          {% endif %}
         </ul>
         <p class="copyright text-muted">
 		  {{ site.author.name }}
 		  &nbsp;&bull;&nbsp;
 		  {{ site.time | date: '%Y' }}
-		  
+
 		  {% if site.url-pretty %}
 		  &nbsp;&bull;&nbsp;
 		  <a href="{{ site.url }}">{{ site.url-pretty }}</a>
