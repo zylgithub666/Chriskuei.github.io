@@ -1,40 +1,29 @@
 ---
 layout: default
+title: Home
 ---
+<div class="introduction">
+  <h1>Hi.</h1>
 
-<!-- This loops through the paginated posts -->
-{% for post in paginator.posts %}
-  {% include post.html post=post content=post.content %}
-{% endfor %}
+<p>Ed is a <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> theme designed for textual editors based on <a href="http://go-dh.github.io/mincomp/">minimal computing principles</a>, and focused on legibility, durability, ease and flexibility. Our underlying technology is easy to learn and teach, and can produce beautifully rendered scholarly or reading editions of texts meant to last. To start using Ed, please see <a href="{{ site.baseurl }}/documentation/">our documentation</a> for installation instructions and more. To learn more about the ideas behind Ed and a list of current features see our <a href="{{ site.baseurl }}/about/">about</a> section. To see Ed in action, we've provided some sample minimal editions for you below.</p>
+</div>
 
-{% if paginator.total_pages > 1 %}
-<ul class="pagination">
-  <li class="pagination-item">
-    <a class="pagination-link pagination-link--non-numeric" {% if paginator.page == 1 %}disabled="disabled"{% endif %} href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">&larr; First page</a>
-  </li>
-  <li class="pagination-item">
-    <a class="pagination-link pagination-link--non-numeric" {% if paginator.previous_page == nil %}disabled="disabled"{% endif %} href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Prev</a>
-  </li>
+<hr>
 
-  <!-- Numbers -->
-  {% for page in (1..paginator.total_pages) %}
-    <li class="pagination-item">
-      {% if page == paginator.page %}
-        <a class="pagination-link pagination-link--selected" href="#">{{ page }}</a>
-      {% elsif page == 1 %}
-        <a class="pagination-link" href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-      {% else %}
-        <a class="pagination-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-      {% endif %}
+<div class="toc">
+  <h2>Sample texts</h2>
+  <ul class="post">
+  {% for item in site.texts do %}
+  
+    <li class="post-title">
+      <a href="{{ site.baseurl }}{{ item.url }}">
+        {{ item.title }}
+      </a>
     </li>
   {% endfor %}
-  <!-- End of numbers -->
+  </ul>  
 
-  <li class="pagination-item">
-    <a class="pagination-link pagination-link--non-numeric" {% if paginator.next_page == nil %}disabled="disabled"{% endif %} href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &rarr;</a>
-  </li>
-  <li class="pagination-item">
-    <a class="pagination-link pagination-link--non-numeric" {% if paginator.page == paginator.total_pages %}disabled="disabled"{% endif %} href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', paginator.total_pages }}">Last page &rarr;</a>
-  </li>
-</ul>
-{% endif %}
+</div>
+
+
+
