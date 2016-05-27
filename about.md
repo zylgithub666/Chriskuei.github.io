@@ -4,7 +4,7 @@ title: About
 ---
 
 <p class="message">
-  Hey there!
+  Hey there! Here is Chris.
 </p>
 
 Chris, undergraduate, [Beijing Institute of Technology](http://www.bit.edu.cn), majors in Internet of Things.

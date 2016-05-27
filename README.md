@@ -1,7 +1,7 @@
 ## [Moment](https://chriskuei.github.io)
 > Chriskuei's personal blog
 
-## Record
+## Records
 
 - Life
 - Code
