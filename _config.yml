@@ -1,24 +1,47 @@
-# Dependencies
-markdown:         redcarpet
-pygments:         true
-
-# Permalinks
-permalink:        pretty
+# Built with Jekyll 3.2.0
 
 # Setup
-title:            Lanyon
-tagline:          'A Jekyll theme'
-description:      'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://lanyon.getpoole.com
+title:               Ed.
+tagline:             'A Jekyll theme for minimal editions'
+description:         'Ed is a Jekyll theme designed for textual editors based on minimal computing principles, and focused on legibility and flexibility.'
+url:                 'http://elotroalex.github.io'
+baseurl:             '/ed'
 
+# About/contact
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:              Alex Gil
+  url:               https://twitter.com/elotroalex
+  email:             colibri.alex@gmail.com
 
-paginate:         5
+# Permalinks
+
+permalink: pretty
+permalink: /:title/
+
+# Set encoding to UTF-8
+encoding: utf-8
+
+# Collections for texts
+collections:
+  texts:
+    output: true
+
+# Markdown specs
+markdown: kramdown
+
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  footnote_backlink: "&#x21a9;&#xfe0e;"
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 
 # Custom vars
-version:          2.0.0
+version:             0.0.6
 
-github:
-  repo:           https://github.com/poole/lanyon
+# Exclusions from the final site
+exclude: [optional, vendor]
+
+
