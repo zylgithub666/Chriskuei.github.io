@@ -19,7 +19,7 @@ Chris, undergraduate, [Beijing Institute of Technology](http://www.bit.edu.cn), 
 ## Contact Me
 
 - [Weibo](https://weibo.com/chenjiangui)
-- [Zhihu](https://www.zhihu.com/chenjiangui)
+- [Zhihu](https://www.zhihu.com/people/chenjiangui)
 - [Github](https://github.com/Chriskuei)
 
 Thanks for reading!
