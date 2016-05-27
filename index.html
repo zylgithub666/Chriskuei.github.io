@@ -14,9 +14,9 @@ title: Home
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 	{% if post.description %}
-		{{ post.description | strip_html | strip_newlines | truncate: 250 }}
+		{{ post.description | strip_html | strip_newlines | truncate: 100 }}
     {% else %}
-    	{{ post.content | strip_html | strip_newlines | truncate: 250 }}
+    	{{ post.content | strip_html | strip_newlines | truncate: 100 }}
     {% endif %}
   </div>
   {% endfor %}
@@ -38,4 +38,3 @@ title: Home
     <span class="pagination-item newer">Newer</span>
   {% endif %}
 </div>
-
