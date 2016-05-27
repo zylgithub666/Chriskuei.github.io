@@ -1,59 +1,39 @@
-# Jekyll Cayman theme
+Travelog Theme
+---
 
-This is a [Jekyll][1] theme for [@jasonlong][2]'s [Cayman theme][4] on [GitHub Pages][3].
+Travelog is a theme for [Jekyll](http://jekyllrb.com/) that is both elegant and downright simple.
 
-Cayman is a clean, responsive theme for [GitHub Pages](https://pages.github.com). This theme is available as an option if you use the [Automatic Page Generator](https://help.github.com/articles/creating-pages-with-the-automatic-generator/) or you can copy the template and styles to use on your own.
+![](http://i.imgur.com/FrNwKav.png)
 
-You can preview the theme at http://jasonlong.github.io/cayman-theme or with real content at http://jasonlong.github.io/geo_pattern.
+In addition to being devilishly handsome, it is responsive down to mobile and has a very light footprint. Travelog lends itself well to photography and travel journaling.
 
-![](http://cl.ly/image/1T3r3d18311V/content)
+It has been designed to be an easy layout to modify for your own blog. See the installation instructions below to get started.
 
-# How to use it?
+### Demo
 
-Download the theme @ http://github.com/pietromenna/jekyll-cayman-theme/archive/master.zip
+See the theme in action [here](http://travelog.io/).
 
-Unzip it and use it as a regular jekyll folder.
+### Installation
 
-```
-$ unzip master.zip
-```
+- Install Jekyll: `gem install jekyll`
+- [Fork this repository](https://github.com/rowanoulton/travelog-theme/fork)
+- Clone it: `git clone https://github.com/YOUR-USER/travelog-theme`
+- Run the jekyll server: `jekyll serve -w`
 
-Get inside the newly extracted folder
-```
-$ cd jekyll-cayman-theme
-```
+You should have a server up and running locally at <http://localhost:4000>.
 
-Get the required gems
-```
-$ bundle install
-```
+### Customization 
 
-Use it!
-
-```
-$ jekyll serve
-```
-
-For more details read about [Jekyll][1] on its web page.
-
-# Setup
-
-Some important configuration can be done in the file `_config.yml`. Please, check the Setup section in that file.
+To customize the theme to your hearts content, check out what's in `_config.yml` as that's where you'll pull your name, Twitter username, things like that.
 
 
-## baseurl
+### Deployment
 
-`baseurl` parameter is required in the case the site doesn't sit on the root of the domain. For example: http://pietromenna.github.io/jekyll-cayman-theme
+Travelog is designed to be deployed to [GitHub Pages](https://pages.github.com/). 
 
-In the case above the baseurl should be set to "/jekyll-cayman-theme".
 
-In the case the site sits in the root, you can leave `baseurl` as empty "".
+### License
 
-# License
+[MIT](https://github.com/rowanoulton/travelog-theme/blob/master/LICENSE)
 
-This work is licensed under a [Creative Commons Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/) license.
-
-[1]: http://jekyllrb.com/
-[2]: https://github.com/jasonlong
-[3]: http://pages.github.com/
-[4]: https://github.com/jasonlong/cayman-theme
+Attribution is totally not necessary, use it as you please. If you'd like to throw me a shoutout or say thanks, I'm on [@rowanoulton](https://twitter.com/rowanoulton/).
