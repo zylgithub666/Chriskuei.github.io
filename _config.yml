@@ -1,47 +1,24 @@
-# Built with Jekyll 3.2.0
-
-# Setup
-title:               Ed.
-tagline:             'A Jekyll theme for minimal editions'
-description:         'Ed is a Jekyll theme designed for textual editors based on minimal computing principles, and focused on legibility and flexibility.'
-url:                 'http://elotroalex.github.io'
-baseurl:             '/ed'
-
-# About/contact
-author:
-  name:              Alex Gil
-  url:               https://twitter.com/elotroalex
-  email:             colibri.alex@gmail.com
+# Dependencies
+markdown:         redcarpet
+pygments:         true
 
 # Permalinks
+permalink:        pretty
 
-permalink: pretty
-permalink: /:title/
+# Setup
+title:            Chriskuei
+tagline:          'Keep calm and code on'
+description:      'Life style = Code + Fitness + Books'
+url:              http://blog.chriskuei.com
 
-# Set encoding to UTF-8
-encoding: utf-8
+author:
+  name:           'Chriskuei'
+  url:            https://weibo.com/chenjiangui
 
-# Collections for texts
-collections:
-  texts:
-    output: true
-
-# Markdown specs
-markdown: kramdown
-
-kramdown:
-  auto_ids:       true
-  footnote_nr:    1
-  entity_output:  as_char
-  footnote_backlink: "&#x21a9;&#xfe0e;"
-  toc_levels:     1..6
-  smart_quotes:   lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
+paginate:         5
 
 # Custom vars
-version:             0.0.6
+version:          1.0.0
 
-# Exclusions from the final site
-exclude: [optional, vendor]
-
-
+github:
+  repo:           https://github.com/chriskuei/chriskuei.github.io
