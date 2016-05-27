@@ -8,3 +8,18 @@ title: About
 </p>
 
 Chris, undergraduate, [Beijing Institute of Technology](http://www.bit.edu.cn), majors in Internet of Things.
+
+## Interest
+
+- Movie
+- Music
+- Books
+- Fitness
+
+## Contact Me
+
+- [Weibo](https://weibo.com/chenjiangui)
+- [Zhihu](https://www.zhihu.com/chenjiangui)
+- [Github](https://github.com/Chriskuei)
+
+Thanks for reading!
