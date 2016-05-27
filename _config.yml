@@ -6,19 +6,19 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            Chriskuei
-tagline:          'Keep calm and code on'
-description:      'Life style = Code + Fitness + Books'
-url:              http://blog.chriskuei.com
+title:            Lanyon
+tagline:          'A Jekyll theme'
+description:      'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:              http://lanyon.getpoole.com
 
 author:
-  name:           'Chriskuei'
-  url:            https://weibo.com/chenjiangui
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
 
 paginate:         5
 
 # Custom vars
-version:          1.0.0
+version:          2.0.0
 
 github:
-  repo:           https://github.com/chriskuei/chriskuei.github.io
+  repo:           https://github.com/poole/lanyon
