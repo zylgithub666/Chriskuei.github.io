@@ -1,111 +1,24 @@
-# --- Serving options --- #
+# Dependencies
+markdown:         redcarpet
+pygments:         true
 
-# url is the full website URL
-# baseurl is the website's URL without the hostname
+# Permalinks
+permalink:        pretty
 
-# If you are building a simple GitHub user page (username.github.io) then use these settings:
-url: "http://chriskuei.github.io"
-baseurl: ""
+# Setup
+title:            Chriskuei
+tagline:          'Keep calm and code on'
+description:      'Life style = Code + Fitness + Books'
+url:              http://blog.chriskuei.com
 
-# If you are building a GitHub project page then use these settings:
-#url: "http://username.github.io/projectname"
-#baseurl: "/projectname"
-
-# Of course don't forget to change the username and projectname to YOUR username and project
-
-# Name of website
-title: Chriskuei
-
-# Short description of your site
-description: Keep calm and code on
-
-# --- Navigation bar options --- #
-
-# Image to show in the navigation bar - image must be a square (width = height)
-# Remove this parameter if you don't want an image in the navbar
-avatar: "/images/chris.png"
-
-# List of links in the navigation bar
-navbar-links:
-  Home: ""
-  # Projects: "projects.html"
-  About Me: "aboutme.html"
-#  Contact: "contact.html"
-
-# --- Footer options --- #
-
-# Change all these values or delete the ones you don't want.
-# Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Chriskuei
-  email: "chriskuei@outlook.com"
-  twitter: Chris_2544   # eg. daattali
-  github: chriskuei    # eg. daattali
-  weibo: chenjiangui
-#  linkedin: yourlink  # eg. "pub/dean-attali/8/946/143"
-#  facebook: yourname  # eg. daattali
-#  stackoverflow: yourlink  # eg. "users/3943160/daattali"
+  name:           'Chriskuei'
+  url:            https://weibo.com/chenjiangui
 
-# Select which links to show in the footer
-footer-links-active:
-  rss: false
-  facebook: true
-  email: true
-  twitter: false
-  github: true
-  weibo: true
-  linkedin: false
-  stackoverflow: false
+paginate:         5
 
-# How to display the link to the website in the footer
-# Remove this if you don't want a link in the footer
-# url-pretty: "chriskuei.github.io"
+# Custom vars
+version:          1.0.0
 
-# --- Misc --- #
-
-# Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-disqus: "chriskuei"
-
-# Fill in your Google Analytics ID to track your website using GA
-google_analytics: "chris"
-
-# --- Don't need to touch anything below here (but you can if you want) --- #
-
-# Output options (more information on Jekyll's site)
-timezone: "China/Beijing"
-markdown: kramdown
-highlighter: rouge
-permalink: /blog/:year/:month/:day/:title.html  #/:year-:month-:day-:title
-paginate: 5
-
-# Default YAML values (more information on Jekyll's site)
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      comments: true  # add comments to all blog posts
-  -
-    scope:
-      path: "" # all files
-    values:
-      layout: "default"
-
-# Exclude these files from production site
-exclude:
-  - CNAME
-  - LICENSE
-  - README.md
-
-# prose.io options
-prose:
-  ignore:
-    - 404.html
-    - LICENSE
-    - feed.xml
-    - /_includes
-    - /_layouts
-    - /css
-    - /img
-    - /js
+github:
+  repo:           https://github.com/chriskuei/chriskuei.github.io
