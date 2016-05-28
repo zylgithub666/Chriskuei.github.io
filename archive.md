@@ -10,6 +10,5 @@ title: Archive
 {% endfor %}
 
 ## Projects
-* [Bon for Mac](https://github.com/Chriskuei/Bon-for-Mac)
-  > The elegant network client for BIT
+* [Bon for Mac](https://github.com/Chriskuei/Bon-for-Mac): The elegant network client for BIT
 * ...
