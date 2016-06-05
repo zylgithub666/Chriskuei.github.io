@@ -1,11 +1,10 @@
 ---
 title: Animation
 layout: post
+description: Make your animations look more realistic
 ---
 
 > Make your animations look more realistic
-
-[TOC]
 
 ## animateWithDuration
 
