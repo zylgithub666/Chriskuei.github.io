@@ -9,7 +9,7 @@ title:               Chriskuei
 tagline:             'Keep calm and code on'
 description:         'Life style = Code + Fitness + Books'
 url:                 http://blog.chriskuei.cn
-baseurl:             /
+baseurl:             http://blog.chriskuei.cn/
 paginate:            3
 
 # About/contact
