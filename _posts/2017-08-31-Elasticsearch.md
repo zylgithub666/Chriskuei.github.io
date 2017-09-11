@@ -20,4 +20,3 @@ To shut down Elasticsearch, kill the process ID recorded in the `pid` file:
 kill `cat pid`
 ```
 
-$$a^2 + b^2 = c^2$$
